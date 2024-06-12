@@ -34,10 +34,10 @@ final class XCUITestSandboxUITests: XCTestCase {
     
     func testShowTextButton() throws {
         let app = XCUIApplication()
-        let showTestButton = app.buttons["ShowTextButton"]
+        let showTextButton = app.buttons["ShowTextButton"]
         let helloWorldText = app.staticTexts["HelloWorldText"]
         
-        showTestButton.click()
+        showTextButton.click()
         
         XCTAssertTrue(helloWorldText.exists, "Text didn't appear")
     }
