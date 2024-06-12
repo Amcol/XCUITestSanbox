@@ -13,7 +13,6 @@
 		49F511C72C188F3300F4A396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F511C62C188F3300F4A396 /* Preview Assets.xcassets */; };
 		49F511D22C188F3300F4A396 /* XCUITestSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F511D12C188F3300F4A396 /* XCUITestSandboxTests.swift */; };
 		49F511DC2C188F3300F4A396 /* XCUITestSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F511DB2C188F3300F4A396 /* XCUITestSandboxUITests.swift */; };
-		49F511DE2C188F3300F4A396 /* XCUITestSandboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F511DD2C188F3300F4A396 /* XCUITestSandboxUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		49F511D12C188F3300F4A396 /* XCUITestSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSandboxTests.swift; sourceTree = "<group>"; };
 		49F511D72C188F3300F4A396 /* XCUITestSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITestSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F511DB2C188F3300F4A396 /* XCUITestSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSandboxUITests.swift; sourceTree = "<group>"; };
-		49F511DD2C188F3300F4A396 /* XCUITestSandboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSandboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				49F511DB2C188F3300F4A396 /* XCUITestSandboxUITests.swift */,
-				49F511DD2C188F3300F4A396 /* XCUITestSandboxUITestsLaunchTests.swift */,
 			);
 			path = XCUITestSandboxUITests;
 			sourceTree = "<group>";
@@ -277,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				49F511DC2C188F3300F4A396 /* XCUITestSandboxUITests.swift in Sources */,
-				49F511DE2C188F3300F4A396 /* XCUITestSandboxUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,11 +417,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = XCUITestSandbox/XCUITestSandbox.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XCUITestSandbox/Preview Content\"";
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -448,11 +445,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = XCUITestSandbox/XCUITestSandbox.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XCUITestSandbox/Preview Content\"";
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -476,7 +474,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
@@ -495,7 +493,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
@@ -513,7 +511,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amcol.XCUITestSandboxUITests;
@@ -530,7 +528,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amcol.XCUITestSandboxUITests;
